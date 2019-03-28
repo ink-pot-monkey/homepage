@@ -19,6 +19,10 @@ const Icon = styled.a`
   padding: ${rhythm(0.2)};
 `
 
+{
+  /* This uses React inline-styling as opposed to the common (throughout this project) 
+  styled-components usage due to the greater hierarchy of Bulma classes to styled-components  */
+}
 const Footer = {
   display: "inline-block",
 }
