@@ -19,9 +19,9 @@ const Icon = styled.a`
   padding: ${rhythm(0.2)};
 `
 
-const Footer = styled.footer`
-  display: inline-block;
-`
+const Footer = {
+  display: "inline-block",
+}
 
 export default () => (
   <Section>
@@ -47,11 +47,11 @@ export default () => (
                   </div>
                 </div>
               </a>
-              <Footer class="card-footer">
+              <footer class="card-footer" style={Footer}>
                 <Icon target="_blank" href={project.git}>
                   <FontAwesomeIcon icon={faGithub} />
                 </Icon>
-              </Footer>
+              </footer>
             </div>
           </div>
         )
