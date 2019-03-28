@@ -1,0 +1,58 @@
+[
+  {
+    "type": "work",
+    "timelineYear": "2019",
+    "duration": "December 2018 - February 2019",
+    "role": "Academic Technologist (Part-Time)",
+    "where": "Warwick University",
+    "description": "Lead the development and management of a number of strategically important service offerings that are crucial for digital humanities work. Design and implement robust, reusable, supported and sustainable technological solutions to support research objectives."
+  },
+  {
+    "type": "work",
+    "timelineYear": "2018",
+    "duration": "October 2018 - November 2018",
+    "role": "Research Assistant",
+    "where": "University College London",
+    "description": "Commissioned by my Digital Humanities professor to conduct research and co-write a paper that is due to be published on Critical Digital Heritage."
+  },
+  {
+    "type": "education",
+    "timelineYear": "2018",
+    "duration": "September 2017 - September 2018",
+    "role": "MSc Digital Humanities | Merit",
+    "where": "University College London",
+    "description": "This degree draws together teaching from a wide range of disciplines, to investigate the application of computational technologies to the arts, humanities, and cultural heritage."
+  },
+  {
+    "type": "work",
+    "timelineYear": "2018",
+    "duration": "August 2017 - October 2018",
+    "role": "Assistant Manager",
+    "where": "Kansas Smitty’s Jazz Bar",
+    "description": "While studying at University College London, I worked at this bar and occasionally ran the place."
+  },
+  {
+    "type": "education",
+    "timelineYear": "2014",
+    "duration": "September 2012 - September 2014",
+    "role": "MA Comparative Literature | Distinction",
+    "where": "School of Oriental and African Studies",
+    "description": "Wrote a dissertation entitled 'Nexus Narrative: The emergence of a genre' to investigate the impact of the digital technology on the aesthetic usage of language in writing in emerging genres in Chinese digital writing."
+  },
+  {
+    "type": "education",
+    "timelineYear": "2011",
+    "duration": "September 2007 - September 2011",
+    "role": "BA English Literature (EU) | Merit (Honours)",
+    "where": "Leicester University",
+    "description": "Erasmus year at the University of Leipzig (Institut für Anglistik), Germany, September 2009 - September 2010."
+  },
+  {
+    "type": "education",
+    "timelineYear": "2007",
+    "duration": "August 2005 - July 2007",
+    "role": "International Baccalaureate",
+    "where": "The Mahindra United World College of India",
+    "description": "Philosophy, Spanish, English, Biology, Maths, Music"
+  }
+]
