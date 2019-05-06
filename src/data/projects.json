@@ -26,7 +26,7 @@
   {
     "name": "A mockup of a React website using the React Material UI framework",
     "type": "React, Material UI",
-    "description": "This project was a React template created in order to explore and become familiar with the React Material UI framework. (Click on Perspiciatis Unde in the Navigation to see it in its full glory!)",
+    "description": "This project was a React template created in order to explore and become familiar with the React Material UI framework.",
     "img": "React-MaterialUI.png",
     "url": "https://tsdk-react-template.netlify.com/",
     "git": "https://github.com/thomasseandominickelly/react-materialui-protoype"
