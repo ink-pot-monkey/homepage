@@ -20,7 +20,7 @@
     "type": "PHP, Postgres, Leaflet, Javascript",
     "description": "A geo-temporal animated mapping of the United Kingdom’s Home Office Immigration Statistics from the years 2004 to 2016.",
     "img": "immigrationMapping.gif",
-    "url": "https://github.com/thomasseandominickelly/UK-immigrationData-map",
+    "url": "http://immigration.thomasseandominickelly.me/",
     "git": "https://github.com/thomasseandominickelly/UK-immigrationData-map"
   },
   {
