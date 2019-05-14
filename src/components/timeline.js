@@ -21,6 +21,18 @@ const Button = styled.button`
   margin-left: 10px;
 `
 
+const Role = styled.h3`
+  font-weight: bold;
+`
+
+const Where = styled.h4`
+  text-decoration: underline;
+`
+
+const Description = styled.p`
+  font-weight: 100;
+`
+
 class Timeline extends Component {
   constructor(props) {
     super(props)
@@ -47,10 +59,10 @@ class Timeline extends Component {
       })
     } else timelineDisplay = timeline
 
-    console.log(timelineDisplay)
-
     return (
       <div className="timeline is-centered">
+        <h2 className="title is-spaced">Interactive Timeline</h2>
+        <p>Click on a category to see the timeline change</p>
         <header className="timeline-header">
           <Form>
             <Button
@@ -85,19 +97,13 @@ class Timeline extends Component {
             <div className="timeline-content">
               <Center>
                 <p className="heading">{experience.duration}</p>
-                <h3>{experience.role}</h3>
-                <h4>
-                  <strong>{experience.where}</strong>
-                </h4>
-                <p>{experience.description}</p>
+                <Role>{experience.role}</Role>
+                <Where>{experience.where}</Where>
+                <Description>{experience.description}</Description>
               </Center>
             </div>
           </div>
         ))}
-
-        <header class="timeline-header">
-          <span class="tag is-medium is-primary">Conception</span>
-        </header>
       </div>
     )
   }

@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
+import SEO from "./seo"
+import siteConfig from "../data/siteConfig"
 import Landing from "./landing"
 import Projects from "./projects"
 import Timeline from "./timeline"
@@ -18,8 +20,12 @@ const Footer = styled.footer`
   text-align: center;
 `
 
+const title = siteConfig.siteTitle
+const { keywords } = siteConfig
+
 export default () => (
   <div>
+    <SEO title={title} keywords={keywords} />
     <Container>
       <Landing />
     </Container>
@@ -30,7 +36,8 @@ export default () => (
       <Timeline />
     </Container>
     <Footer>
-      Built with {` `} <a href="https://www.gatsbyjs.org"> Gatsby </a> {` `}©
+      Built with {` `} <a href="https://www.gatsbyjs.org"> Gatsby </a> {` `} ©
+      {` `}
       {new Date().getFullYear()}
     </Footer>
   </div>

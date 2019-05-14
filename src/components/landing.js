@@ -1,35 +1,35 @@
-import React from "react";
-import styled from "styled-components";
-import Particles from "react-particles-js";
+import React from "react"
+import styled from "styled-components"
+import Particles from "react-particles-js"
 
-import { rhythm } from "../utils/typography";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { rhythm } from "../utils/typography"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faFreeCodeCamp,
   faStackOverflow,
   faLinkedin,
-  faGithub
-} from "@fortawesome/free-brands-svg-icons";
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons"
 
 const Title = styled.h1`
   font-size: ${rhythm(2.4)};
-`;
+`
 
 const Justification = styled.h4`
   font-size: ${rhythm(0.7)};
   margin-top: ${rhythm(-0.5)};
-`;
+`
 
 const Tagline = styled.h2`
   font-size: ${rhythm(1)};
   margin: ${rhythm(0.5)};
-`;
+`
 
 const Icon = styled.a`
   font-size: ${rhythm(1.5)};
   padding: ${rhythm(0.2)};
   color: blue;
-`;
+`
 
 export default () => (
   <div>
@@ -37,23 +37,23 @@ export default () => (
       params={{
         particles: {
           color: {
-            value: "#00F"
+            value: "#00F",
           },
           line_linked: {
             enable: true,
             distance: 150,
             color: "#00F",
             opacity: 0.4,
-            width: 1
-          }
-        }
+            width: 1,
+          },
+        },
       }}
       style={{
         position: "absolute",
         display: "block",
         top: "0",
         left: "0",
-        "z-index": "-99"
+        "z-index": "-99",
       }}
     />
 
@@ -64,7 +64,7 @@ export default () => (
     </Justification>
 
     <Tagline>
-      Academic Technologist | Aspiring Dev | Code Convert | Linux Explorer
+      Academic Technologist | Code Convert | Fullstacker | Linux Diver
     </Tagline>
 
     <div>
@@ -90,5 +90,11 @@ export default () => (
         <FontAwesomeIcon icon={faGithub} />
       </Icon>
     </div>
+    <a href="https://www.codewars.com/users/tsdkelly">
+      <img
+        src="https://www.codewars.com/users/tsdkelly/badges/small"
+        alt="Codewars stats"
+      />
+    </a>
   </div>
-);
+)
