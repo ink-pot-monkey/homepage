@@ -19,7 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </Head>
       <body>
         <a
-          href="https://github.com/thomasSDK"
+          href="https://www.linkedin.com/in/thomassdk/"
           style={{ right: padding, top: padding }}
         >
           <FontAwesomeIcon
@@ -30,7 +30,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/thomassdk/"
+          href="https://github.com/thomasSDK"
           style={{ right: padding * 3, top: padding }}
         >
           <FontAwesomeIcon
