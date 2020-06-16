@@ -1,6 +1,16 @@
+@font-face {
+  font-family: "FiraCode";
+  src: url("/fonts/FiraCode-Regular.otf");
+  src: url("/fonts/FiraCode-Bold.otf");
+  src: url("/fonts/FiraCode-SemiBold.otf");
+  src: url("/fonts/FiraCode-Light.otf");
+  src: url("/fonts/FiraCode-Medium.otf");
+  src: url("/fonts/FiraCode-Retina.otf");
+}
+
 body {
   margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: FiraCode, sans-serif;
 }
