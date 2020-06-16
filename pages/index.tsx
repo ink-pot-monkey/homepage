@@ -14,6 +14,7 @@ export default function Home() {
       <style jsx>{`
         h1 {
           line-height: 1.5;
+          border-radius: 100px;
           padding: 0 10px;
           margin: auto;
           z-index: 1;
