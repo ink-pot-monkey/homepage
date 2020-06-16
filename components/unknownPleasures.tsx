@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react";
 import { makeNoise2D } from "open-simplex-noise";
-import { lineColor, padding } from "../components/layout";
+import { lineColor, padding, backgroundColor } from "../components/layout";
 
 interface line {
   x: number;
@@ -135,7 +135,7 @@ export default function UnknownPleasures() {
           top: 0;
           bottom: 0;
           margin: auto;
-          background-color: var(--selected-primary-color);
+          background-color: ${backgroundColor};
         }
       `}</style>
     </>

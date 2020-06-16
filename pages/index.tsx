@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import UnknownPleasures from "../components/unknownPleasures";
+import { lineColor, padding, backgroundColor } from "../components/layout";
 
 export default function Home() {
   return (
@@ -8,16 +9,16 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <h1 className="name">thomasSDK</h1>
+      <h1>thomasSDK</h1>
       <UnknownPleasures />
       <style jsx>{`
-        .name {
+        h1 {
           line-height: 1.5;
           padding: 0 10px;
           margin: auto;
           z-index: 1;
-          color: var(--selected-line-color);
-          background-color: var(--selected-primary-color);
+          color: ${lineColor};
+          background-color: ${backgroundColor};
         }
       `}</style>
     </Layout>
