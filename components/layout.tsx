@@ -1,10 +1,10 @@
 import Head from "next/head";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import styled from "styled-components";
+import { Github, Linkedin } from "@styled-icons/fa-brands";
 
-const name = "thomasSeanDominicKelly";
+const name = "Thomas Sean Dominic Kelly";
 export const siteTitle = "thomasSDK";
-export const padding = 35;
+export const canvasMargin = 35;
 export const lineColor = "white";
 export const backgroundColor = "black";
 
@@ -18,41 +18,35 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta name="og:title" content={siteTitle} />
       </Head>
       <body>
-        <a
-          href="https://www.linkedin.com/in/thomassdk/"
-          style={{ right: padding, top: padding }}
-        >
-          <FontAwesomeIcon
-            className="icon"
-            icon={faLinkedin}
-            color={lineColor}
-            size="2x"
-          />
-        </a>
-        <a
-          href="https://github.com/thomasSDK"
-          style={{ right: padding * 3, top: padding }}
-        >
-          <FontAwesomeIcon
-            className="icon"
-            icon={faGithub}
-            color={lineColor}
-            size="2x"
-          />
-        </a>
-        <div className="container">{children}</div>
+        <LinkContainer>
+          <StyledLink href="https://www.linkedin.com/in/thomassdk/">
+            <Linkedin className="icon" color={lineColor} size="40" />
+          </StyledLink>
+          <StyledLink href="https://github.com/thomasSDK">
+            <Github className="icon" color={lineColor} size="40" />
+          </StyledLink>
+        </LinkContainer>
+        <AppContainer className="container">{children}</AppContainer>
       </body>
-      <style jsx>{`
-        a {
-          position: fixed;
-          z-index: 1;
-        }
-        .container {
-          display: flex;
-          height: 100vh;
-          flex-direction: column;
-        }
-      `}</style>
     </>
   );
 }
+
+const AppContainer = styled.div`
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+`;
+
+const LinkContainer = styled.div`
+  position: fixed;
+  z-index: 1;
+  top: 35px;
+  right: ${canvasMargin}px;
+`;
+
+const StyledLink = styled.a`
+  &:not(:last-child) {
+    padding-right: 20px;
+  }
+`;
